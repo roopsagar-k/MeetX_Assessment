@@ -4,7 +4,6 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import routes from "./routes";
 
-
 declare global {
   namespace Express {
     interface Request {
@@ -32,6 +31,9 @@ app.use(express.urlencoded({ extended: true, limit: "1mb" }));
 
 //routes
 app.use("/api", routes);
+app.get("/", (req, res) => {
+  res.send("<h1>MeetX Assessment Healthy Server...</h1>");
+});
 
 //Error handling
 app.use((err: ApiError, _req: Request, res: Response, _next: NextFunction) => {
@@ -43,4 +45,3 @@ app.use((err: ApiError, _req: Request, res: Response, _next: NextFunction) => {
     errors: err.errors || [],
   });
 });
-
