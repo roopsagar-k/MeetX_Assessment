@@ -2,6 +2,12 @@
 
 This is a RESTful API for an Activity Booking System, built with Node.js, Express, and MongoDB. It allows users to register, log in, view available activities, book them, and manage their bookings.
 
+## 🚀 Deployed API
+
+The API is live and accessible at:
+
+[https://vsck0o8sc48wksok00gs0sgc.wibblit.com/](https://vsck0o8sc48wksok00gs0sgc.wibblit.com/)
+
 ## 📌 Base URL
   http://localhost:3000/api
 
