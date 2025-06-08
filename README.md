@@ -5,8 +5,7 @@ This is a RESTful API for an Activity Booking System, built with Node.js, Expres
 ## 🚀 Deployed API
 
 The API is live and accessible at:
-
-[https://vsck0o8sc48wksok00gs0sgc.wibblit.com/](https://vsck0o8sc48wksok00gs0sgc.wibblit.com/)
+[https://pgw8ooo804owk8g8sk0ock8o.wibblit.com/](https://pgw8ooo804owk8g8sk0ock8o.wibblit.com/)
 
 ## 📌 Base URL
   http://localhost:3000/api
